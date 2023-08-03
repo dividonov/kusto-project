@@ -5,3 +5,16 @@
     border-bottom: 1px solid rgba(84, 84, 84, 0.7);
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 929px) {
+    .header {
+      max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 644px) {
+    .header {
+      margin: 28px auto 42px auto;
+      min-width: 100%;
+    }
+  }
